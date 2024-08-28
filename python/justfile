@@ -1,5 +1,3 @@
-build:
-    echo 'test'
 test:
     #pytest /workspaces/algo2024/python
     poetry run pytest --cov-report lcov --cov

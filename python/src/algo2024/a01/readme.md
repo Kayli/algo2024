@@ -1,5 +1,7 @@
 # notes
 
+- task description: Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers.
+
 - combinatorics standard terminology
   - combination is a selection of items from a larger set where the order of the selected items does not matter
   - permutation is an arrangement of items from a set where the order of the items does matter
