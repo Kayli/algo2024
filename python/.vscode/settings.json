@@ -1,0 +1,31 @@
+{
+    "python.testing.pytestArgs": [
+        "src/algo2024"
+    ],
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true
+    },
+    "coverage-gutters.coverageFileNames":[
+        "lcov.info",
+        "cov.xml",
+        "coverage.xml",
+        "jacoco.xml",
+        "coverage.cobertura.xml",
+        "coverage.lcov"
+    ],
+    "git.openRepositoryInParentFolders": "prompt",
+    //"runItOn": {
+    //    "watchers": [
+    //        {
+    //            "match": "**/*.py",
+    //            "isAsync": true,
+    //            "isShellCommand": false,
+    //            "cmd": "testing.runAll"
+    //        }
+    //    ]
+    //},
+}
