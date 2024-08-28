@@ -38,3 +38,10 @@
     - use coverage gutters extension to view coverage for a file (there is a button in vscode status bar)
     - see https://pytest-cov.readthedocs.io/en/latest/reporting.html
 
+- 'just' runner supports 
+    - descriptions for targets which will be displayed by 'just -l' command
+    - variadic parameters
+        ```just
+            commit MESSAGE *FLAGS:
+                git commit {{FLAGS}} -m "{{MESSAGE}}"
+        ```
