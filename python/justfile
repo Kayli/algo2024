@@ -1,6 +1,6 @@
 [doc('Runs the tests without generating coverage file')]
 test-nocov:
-    pytest /workspaces/algo2024/python
+    poetry run pytest
 
 [doc('Runs the tests and generates coverage file')]
 test:
